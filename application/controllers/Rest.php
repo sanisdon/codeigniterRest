@@ -17,6 +17,7 @@ class Rest extends REST_Controller
 
         $data['hai'] = 'hai';
         $data['bye'] = 'bye';
+        $data['total'] = 'haibye';
 
         $this->response($data, 200);
     }
